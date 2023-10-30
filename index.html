@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <img src="Img/Crypto.svg" alt="">
+        <div id="coin-container">
+            <form id="coin-form">
+                <div class="coin-input-container">
+                    <label for="coin">Elige tu Moneda</label>
+                    <select class="coin-input" id="coin">
+                       <option selected disabled value="">Selecciona una Moneda</option>
+                       <option  value="USD">Dolar</option>
+                       <option  value="EUR">Euros</option>
+                       <option  value="ARS">Pesos Argentinos</option>
+                       <option  value="VED">Bolivares</option>
+                    </select>
+                </div>
+                <div class="coin-input-container">
+                    <label for="Crypto">Elige tu Cryptomoneda</label>
+                    <select class="coin-input" id="Crypto">
+                       <option selected disabled value="">Selecciona una Cryptomoneda</option>
+                       <option  value="BTC">Bitconin</option>
+                       <option  value="ETH">Ethereum</option>
+                       <option  value="AXS">AXS</option>
+                       <option  value="BsS">Binance</option>
+                    </select>
+                </div>
+                <div class="coin-input-container">
+                    <label for="amaunt">Elige tu Cryptomoneda</label>
+                    <input type="text" class="coin-input" id="amaunt" placeholder="Monto">
+                    <button id="form-btn" type="submit">Cotizar</button>
+                </div>
+            </form>
+            <div id="coin-info"></div>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
